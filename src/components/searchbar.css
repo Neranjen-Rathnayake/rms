@@ -1,0 +1,24 @@
+/* src/components/SearchBar.css */
+.searchbox-wrap {
+    position: relative;
+  }
+  
+  .searchbox {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    background-color: #e6eaed;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    color: #8a8a8a;
+  }
+  
