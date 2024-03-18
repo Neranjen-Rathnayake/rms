@@ -1,0 +1,10 @@
+.payBtn:active{
+    background-color: #fcca05b8 !important;
+    border-color: #FFD839 !important;
+}
+
+.payBtn{
+    background-color: #EFEEEE;
+    border: none;
+    color: black;
+}

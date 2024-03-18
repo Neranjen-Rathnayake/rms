@@ -3,7 +3,6 @@ import JazzCash from '../img/JazzCash_logo.png';
 import Visa from '../img/Visa_Logo.png';
 import MasterCard from '../img/MasterCard_Logo.png';
 import './cards.css';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 export default function Cards() {

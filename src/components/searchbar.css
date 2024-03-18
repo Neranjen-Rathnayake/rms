@@ -8,7 +8,7 @@
     margin: 10px;
     border: none;
     border-radius: 5px;
-    width: 350px;
+    width: 80%;
     background-color: #e6eaed;
     border-radius: 50px;
     text-align: center;
@@ -17,8 +17,7 @@
   .search-icon {
     position: absolute;
     top: 50%;
-    left: 60px;
+    left: 37%;
     transform: translateY(-50%);
     color: #8a8a8a;
   }
-  

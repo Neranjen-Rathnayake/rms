@@ -2,6 +2,7 @@
 .carousel {
     display: flex;
     overflow: hidden;
+
   }
   
   .slide {

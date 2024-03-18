@@ -9,10 +9,12 @@ import './searchbar.css';
 
 export default function SearchBar({ handleInput, search }) {
     return (
-    <div className="searchbox-wrap d-flex justify-content-center align-content-center">
+    <div className='row d-flex justify-content-center'>
+        <div className="col-12 col-lg-8 searchbox-wrap d-flex justify-content-center align-content-center">
            
-        <input type="text" placeholder="Search" className="searchbox" onKeyPress={search} />
-        <FontAwesomeIcon icon={faSearch} className="search-icon mx-2" />
+           <input type="text" placeholder="Search" className="searchbox" onKeyPress={search} />
+           <FontAwesomeIcon icon={faSearch} className="search-icon mx-1" />
+       </div>
     </div>
     )
 }

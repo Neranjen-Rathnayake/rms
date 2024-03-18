@@ -1,29 +1,20 @@
-.hello{
-    width: 100%;
-}
-
 .filter-box{
     background-color: #EFEEEE;
-    height: 200px;
+    height: 210px;
 }
 
 .fimg{
-    width: 100%;
-    border-radius: 25%;
+    width: 100px;
+    height: 90px;
 }
 
 .imgBox{
     background-size: cover;
-    /* background-color: #f6f3f3; */
-    height: 100px;
-    width: 100%;
-    border-radius: 25%; 
-    justify-content: center;
-    align-items: center;
 }
 
 .faplusico{
     font-size: 35px;
     color: green;
     position: absolute;
+    
 }
