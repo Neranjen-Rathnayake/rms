@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Table from 'react-bootstrap/Table';
 import { XCircle } from 'react-bootstrap-icons';
 import { PlusCircle } from 'react-bootstrap-icons';
@@ -8,6 +8,26 @@ import Burger from "../img/burger.png";
 import './cartitems.css';
 
 export default function CartItems() {
+
+  const [count, SetCount1] = useState(1);
+  const [count2, SetCount2] = useState(1);
+
+  const increment = () =>{
+      SetCount1(count+1);
+  }
+
+  const decrement = () =>{
+      SetCount1(count-1);
+  }
+
+  const increment2 = () =>{
+    SetCount2(count2+1);
+}
+
+const decrement2 = () =>{
+    SetCount2(count2-1);
+}
+
   return (
     <div className="row px-2 mt-3">
       <h5 className="mx-3">2 Items in Cart</h5>
@@ -25,9 +45,9 @@ export default function CartItems() {
               <h6 className="p-1">Pizza Frries</h6>
               <h6 className="p-1 text-warning">Rs. 1500</h6>
                 <div className="d-flex mx-2">
-                  <DashCircle className="mx-3 text-primary" />
-                  <h6>1</h6>
-                  <PlusCircle className="mx-3 text-primary" />
+                  <DashCircle className="mx-3 text-primary col-3" onClick={decrement} />
+                  <h6>{count}</h6>
+                  <PlusCircle className="mx-3 text-primary col-3" onClick={increment} />
                 </div>
               
             </div>
@@ -46,9 +66,9 @@ export default function CartItems() {
               <h6 className="p-1">Burger</h6>
               <h6 className="p-1 text-warning">Rs. 1500</h6>
                 <div className="d-flex mx-2">
-                  <DashCircle className="mx-3 text-primary" />
-                  <h6>1</h6>
-                  <PlusCircle className="mx-3 text-primary" />
+                <DashCircle className="mx-3 text-primary col-3" onClick={decrement2} />
+                  <h6>{count2}</h6>
+                  <PlusCircle className="mx-3 text-primary col-3" onClick={increment2} />
                 </div>
               
             </div>

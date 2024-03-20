@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import TopBar from '../components/TopBar'
 import Burger from '../img/BB.png';
 import './singlepview.css';
@@ -8,7 +8,19 @@ import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
 import { faCircleMinus } from '@fortawesome/free-solid-svg-icons';
 import { Button } from 'react-bootstrap';
 
+
 export default function SinglePview() {
+
+    const [count, SetCount] = useState(1);
+
+    const increment = () =>{
+        SetCount(count+1);
+    }
+
+    const decrement = () =>{
+        SetCount(count-1);
+    }
+
     return (
         <div>
             <TopBar />
@@ -40,9 +52,9 @@ export default function SinglePview() {
                                 </div>
                                 <div className='col-6'>
                                     <div className='row'>
-                                        <Button className='col d-flex align-items-center justify-content-center' style={{ background: 'none', color: 'blue', border: 'none' }}><FontAwesomeIcon icon={faCircleMinus} /></Button>
-                                        <h4 className='col d-flex align-items-center justify-content-center'>1</h4>
-                                        <Button className='col d-flex align-items-center justify-content-center' style={{ background: 'none', color: 'blue', border: 'none' }}><FontAwesomeIcon icon={faCirclePlus} /></Button>
+                                        <Button className='col d-flex align-items-center justify-content-center' style={{ background: 'none', color: 'blue', border: 'none' }} onClick={decrement}><FontAwesomeIcon icon={faCircleMinus} /></Button>
+                                        <h4 className='col d-flex align-items-center justify-content-center'>{count}</h4>
+                                        <Button className='col d-flex align-items-center justify-content-center' style={{ background: 'none', color: 'blue', border: 'none' }} onClick={increment}><FontAwesomeIcon icon={faCirclePlus} /></Button>
                                     </div>
                                 </div>
                             </div>
@@ -100,11 +112,13 @@ export default function SinglePview() {
                             </div>
                         </div>
 
+                        
                         <div className='col-12 mt-5'>
                             <div className='row d-flex  justify-content-center'>
                                 <button className='btn btn-warning rounded-5 col-6 py-2' style={{ color: 'white' }}><b> Add to Cart</b></button>
                             </div>
                         </div>
+                        
 
                     </div>
                 </div>

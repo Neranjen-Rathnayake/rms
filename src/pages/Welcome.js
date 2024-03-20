@@ -3,6 +3,7 @@ import Logo from '../img/logo.png';
 import { Button } from 'react-bootstrap';
 import User from '../img/user.jpg';
 
+
 export default function Welcome() {
     return (
         <div>
@@ -29,9 +30,12 @@ export default function Welcome() {
                 <div className='d-flex justify-content-center mt-2'>
                     <p>078 1234 567</p>
                 </div>
+           
                 <div className='d-flex justify-content-center mt-2'>
                     <Button className='btn btn-warning rounded-5 px-5 py-3'><b>Go To Menu</b></Button>
                 </div>
+              
+                
             </div>
         </div>
     )
