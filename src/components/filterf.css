@@ -1,0 +1,20 @@
+.filter-box{
+    background-color: #EFEEEE;
+    height: 210px;
+}
+
+.fimg{
+    width: 100px;
+    height: 90px;
+}
+
+.imgBox{
+    background-size: cover;
+}
+
+.faplusico{
+    font-size: 35px;
+    color: green;
+    position: absolute;
+    
+}

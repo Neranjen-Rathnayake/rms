@@ -1,0 +1,22 @@
+/* src/components/Carousel.css */
+.carousel {
+    display: flex;
+    overflow: hidden;
+
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  img {
+    max-width: 100px; /* Adjust image size as needed */
+  }

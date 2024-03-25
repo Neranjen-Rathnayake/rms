@@ -1,0 +1,13 @@
+.btn1{
+    background-color: #FFD839 !important;
+    border: none;
+    color: black ;
+    font-weight: 700 ;
+    border-radius: 50px ;
+    width: 50%;
+}
+
+.input1{
+    background-color: #E8EAED;
+    padding-left: 10%;
+}

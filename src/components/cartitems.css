@@ -1,0 +1,30 @@
+.box{
+    background-color: #EFEEEE;
+    height: 100px;
+    width: 100px;
+    border-radius: 25%; 
+    justify-content: center;
+    align-items: center;
+}
+.imgBox{
+    height: 80px;
+    width: 80px;
+    border-radius: 25%;
+}
+
+.table1{
+    width: 60%;
+    margin: auto;
+}
+
+
+.oderBtn{
+
+    background-color: #FFD839 !important;
+    border: none !important;
+    color: black !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+    width: 50%;
+    margin-left: 25%;
+}

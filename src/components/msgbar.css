@@ -1,0 +1,21 @@
+.PayMsg{
+    font-size: 9px;
+}
+
+.image{
+    height:30px;
+}
+
+.odrstatus{
+    font-size: 12px;
+}
+
+.msgbar{
+    background-color: #FFCE0799;
+    border-radius: 50px;
+}
+
+.msgchildbar{
+    background-color: #FFFFFF99;
+    border-radius: 50px;
+}
