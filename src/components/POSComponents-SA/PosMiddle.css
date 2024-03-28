@@ -1,0 +1,53 @@
+.posMiddle{
+background-color: #FAFAFA;
+height:100vh;
+}
+.search{
+    background-color: #EFEEEE;
+    border-radius: 20px;
+    border:none;
+}
+
+.addButton {
+  margin-left: 10px;
+  color: black !important;
+  background-color: #FFCE07CC !important;
+  border:none !important;
+  padding:8px 20px !important;
+  
+
+}
+
+.addButton:hover {
+  background-color: #dfb305cc !important; /* Change to the color you desire */
+}
+.serachDiv{
+    display:flex;
+    padding-bottom: 20px;
+}
+.modal-header-no-border {
+  border-bottom: none !important; /* Remove border under the header */
+}
+.modal-footer-no-border {
+  border-top: none !important; /* Remove border above the footer */
+}
+.modal-position {
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.uploadImageDiv{
+  height: 300px;
+  width:250px;
+  background-color: #E0E5F2;
+  cursor: pointer;
+}
+.uploadImage{
+  height:300px;
+  width:250px;
+  max-width: 250px !important;
+}
+.imageInput{
+  height: 290px;
+  width:230px;
+}

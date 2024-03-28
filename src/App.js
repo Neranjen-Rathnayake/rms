@@ -15,6 +15,8 @@ import Transactions from "./pages/Admin/Transactions";
 import POSOrders from "./pages/POS/POSOrders";
 import POSdashboard from "./pages/POS/POSdashboard";
 import POSsidebar from "./pages/POS/POSsidebar";
+import POS from "./pages/POS/POS";
+
 import Cart from "./pages/Cart";
 import CheckOut from "./pages/CheckOut";
 import Home from "./pages/Home";
@@ -67,7 +69,8 @@ function App() {
           <Route path="/SinglePview" element={<SinglePview />} />
           <Route path="/UserDetails" element={<UserDetails />} />
           <Route path="/Welcome" element={<Welcome />} />
-        </Routes>
+          <Route path="/POS" element={<POS/>}/>        
+          </Routes>
       </BrowserRouter>
     </>
   );

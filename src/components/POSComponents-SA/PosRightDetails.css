@@ -1,0 +1,48 @@
+.rightDetailsDiv{
+  padding-top: 30px;
+}
+
+.thead{
+    background: #FBF1C9;
+    padding-bottom: 20px;
+}
+td,th{
+    border: none !important;
+    padding: 10px 5px !important; 
+}
+
+.discount{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.applyButton {
+  margin-left: 10px;
+  color: white !important;
+  background-color: #FF9330 !important;
+  border:none !important;
+  border-radius: 20px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.applyButton:hover {
+  background-color: #d86b04 !important; /* Change to the color you desire */
+}
+.addDiscountDiv{
+    display:flex;
+}
+
+.orderButton {
+    margin-left: 10px;
+    color: white !important;
+    background-color: #FF5757 !important;
+    border:none !important;
+    padding:8px 20px !important;  
+    width:166px;
+  }
+  
+  .orderButton:hover {
+    background-color: #b10606 !important; /* Change to the color you desire */
+  }

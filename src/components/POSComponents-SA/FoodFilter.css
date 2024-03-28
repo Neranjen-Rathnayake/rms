@@ -1,0 +1,34 @@
+.foodFilterNavbar{
+ padding-bottom: 20px;
+}
+.filtered-foods-row{
+  padding:0px 30px;
+}
+.link-with-image {
+  height: 94px;
+  width: 94px;
+  border-radius: 10%;
+  
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+.filter-active{
+  background-color: #fbf1c9 !important;
+}
+.imageClass {
+  height: 24px;
+  width: 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+.link-with-image span {
+  display: block;
+}
