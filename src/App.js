@@ -12,6 +12,8 @@ import POSTableOrders from "./pages/Admin/POSTableOrders";
 import PosOrderList from "./pages/Admin/PosOrderList";
 import SalesReport from "./pages/Admin/SalesReport";
 import Transactions from "./pages/Admin/Transactions";
+import Setting from "./pages/Admin/Setting";
+
 import POSOrders from "./pages/POS/POSOrders";
 import POSdashboard from "./pages/POS/POSdashboard";
 import POSsidebar from "./pages/POS/POSsidebar";
@@ -28,6 +30,7 @@ import QrScan from "./pages/QrScan";
 import SinglePview from "./pages/SinglePview";
 import UserDetails from "./pages/UserDetails";
 import Welcome from "./pages/Welcome";
+import WOrderHistory from "./pages/Waiter/WOrderHistory";
 
 function App() {
   // const handleInput = (e) => {
@@ -69,7 +72,9 @@ function App() {
           <Route path="/SinglePview" element={<SinglePview />} />
           <Route path="/UserDetails" element={<UserDetails />} />
           <Route path="/Welcome" element={<Welcome />} />
-          <Route path="/POS" element={<POS/>}/>        
+          <Route path="/POS" element={<POS/>}/>   
+          <Route path="/Setting" element={<Setting/>} />  
+          <Route path="/Worderhistory" element={<WOrderHistory/>} />
           </Routes>
       </BrowserRouter>
     </>

@@ -53,7 +53,7 @@ export default function Sidebar() {
           </div>
         </Link>
 
-        <Link to="/Item" className="linkWrap">
+        <Link to="/POSOrders" className="linkWrap">
           <div className="sideBarItem d-flex  rounded-5  align-items-center px-3 mt-2">
             <FontAwesomeIcon icon={faFax} />
             <p className="m-2">POS Orders</p>
