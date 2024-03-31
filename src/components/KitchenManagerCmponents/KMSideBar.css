@@ -1,0 +1,30 @@
+.menuIco{
+    font-size: 30px;
+    /* margin: 10px; */
+}
+
+.sideBarWrap{
+    /* width: 250px !important; */
+    height: 100vh;
+    /* overflow: hidden; */
+    background-color: #FFFFFF;
+}
+
+.sideBarLogo{
+    /* width: 100%; */
+}
+
+.sideBarItem{
+    /* margin-left: 5px; */
+}
+
+.sideBarItem:active{
+    background-color: #FFCE07CC;
+}
+
+.sideBarItem::after{
+    background-color: #FFCE07CC;
+}
+.activeLink {
+    background-color: #FFCE07CC; /* Set the background color for the active link */
+  }

@@ -1,0 +1,24 @@
+body{
+    font-size: 14px;
+    font-weight: 500;
+}
+.km-order-table-div{
+    background-color: #FAFAFA;
+    height:100vh;
+}
+.table-div{
+    padding-top: 50px !important;
+}
+.text2{
+    color: #6B7A99;    
+}
+tr {
+    border-bottom: 1px solid #dadfe8; /* Adjust thickness and color as needed */
+  }
+.selectCheff{
+    background-color: #FAFAFA;
+}
+.statusButton{
+    width:100px;
+    height:30px
+}

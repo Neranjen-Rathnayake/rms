@@ -2,16 +2,11 @@ import React from 'react'
 import Table from "react-bootstrap/Table";
 import "../../components/AdminComponents/tables.css";
 import { EyeFill, TrashFill } from "react-bootstrap-icons";
-import POSSidebar from '../../components/POSComponents-SA/POSSideBar';
 
 export default function POSOrders() {
   return (
-        <div className='row'>
-          <div className='col-3'>
-          <POSSidebar/>
-          </div>
-          <div className='col-9 mt-3 mt-4'>
-
+    <div className='container'>
+        <div className="col-12">
           <Table hover>
             <thead>
               <tr>
@@ -125,8 +120,7 @@ export default function POSOrders() {
 
             </tbody>
           </Table>
-
-          </div>
         </div>
+    </div>
   )
 }
