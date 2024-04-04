@@ -1,0 +1,18 @@
+.cardBG{
+    background-color: white;
+    border-radius: 20px;
+height:110%;
+}
+.mainRow{
+    padding: 2% 5%;
+   
+}
+.totalText{
+    color: #C0C1C2;
+}
+.percentage{
+    color: #05CD99;
+}
+.cardText{
+    margin-left: 8%;
+}

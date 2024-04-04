@@ -1,0 +1,13 @@
+.NavBarLogo{
+    height:40px;
+    max-width: 150px;
+}
+.cont{
+    width:200px !important;
+}
+.custom-offcanvas-body {
+    width: 50vw; /* Set the width to 50% of the viewport width */
+  }
+  .custom-offcanvas {
+    width: 50% !important; /* Set the width to 50% of the viewport width */
+  }

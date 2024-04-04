@@ -1,6 +1,6 @@
 
 .logoBox{
-    width: 30%;
+    width: 27%;
     height: 40px;
     background-color:rgb(255, 239, 239);
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .logos{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     margin-top: 1%;
 }
 
@@ -24,4 +24,7 @@
 
 .input1{
     background-color: #E8EAED;
+}
+.firstDiv{
+    padding-left: 8% ;
 }

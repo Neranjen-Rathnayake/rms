@@ -101,7 +101,7 @@ const discountClickHandle=()=>{
 
               <td></td>
               <td colSpan={2}>
-                <div className="">
+                <div className="d-flex justify-content-center">
                   <Button className="rounded-5 orderButton">Order</Button>
                 </div>
               </td>

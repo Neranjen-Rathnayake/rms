@@ -1,0 +1,79 @@
+.mainDiv{
+    background-color: #FAFAFA;
+    height:100vh;
+    padding-bottom: 150px;
+}
+.cardDiv{
+    background-color:rgba(255, 228, 0, 0.5);
+    border:none;
+    border-radius: 20px;
+}
+.cardDiv:hover{
+    background-color:#FFE400;
+}
+.cardDiv.clicked {
+    background-color: #ffe400; /* Persistent hovering color */
+}
+.completeButton{
+    background-color:#06FF00 ;
+    border:none !important;
+    color: black;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 10px;
+    font-weight: 700;
+    margin:0;
+}
+
+.card-title{
+    margin:8px 0px;
+    font-weight: 700;
+}
+.buttonRow{
+    margin-top: 10px;
+}
+
+.tableNoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    background-color: white;
+    height: 95px;
+    width: 95px;
+    border-radius: 20px;
+}
+
+.tableNoRow {
+    margin: 0;
+    padding: 0;
+}
+
+.tableNoText1,
+.tableNoText2 {
+    margin: 0;
+}
+
+.tableNoText2 {
+    font-size:34px;
+    font-weight: 700;
+}
+.modalClass{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+}
+.payButton {
+    margin-left: 10px;
+    color: black !important;
+    border:none !important;
+    padding:8px 20px !important;
+    font-weight: 600;
+    background-color:#FF8E00 !important;
+
+  }
+  
+  .payButton:hover {
+    background-color: #dfb305cc !important; /* Change to the color you desire */
+  }

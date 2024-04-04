@@ -13,7 +13,6 @@ import PosOrderList from "./pages/Admin/PosOrderList";
 import SalesReport from "./pages/Admin/SalesReport";
 import Transactions from "./pages/Admin/Transactions";
 import POSOrders from "./pages/POS/POSOrders";
-import POSdashboard from "./pages/POS/POSdashboard";
 import POSsidebar from "./pages/POS/POSsidebar";
 import POS from "./pages/POS/POS";
 
@@ -29,6 +28,10 @@ import SinglePview from "./pages/SinglePview";
 import UserDetails from "./pages/UserDetails";
 import Welcome from "./pages/Welcome";
 import KitchenManager from "./pages/KitchenManager/KitchenManager";
+import WaiterDashboard from "./components/WaiterComponents-SA/WaiterDashboard";
+import { OrderHistory } from "./components/WaiterComponents-SA/OrderHistory";
+import PosOrdersSA from "./components/POSComponents-SA/POSOrdersSA";
+import POSDashboard from "./components/POSComponents-SA/POSDashboard";
 
 function App() {
   // const handleInput = (e) => {
@@ -58,7 +61,6 @@ function App() {
           <Route path="/SalesReport" element={<SalesReport />} />
           <Route path="/Transactions" element={<Transactions />} />
           <Route path="/POSOrders" element={<POSOrders />} />
-          <Route path="/POSdashboard" element={<POSdashboard />} />
           <Route path="/POSsidebar" element={<POSsidebar />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/CheckOut" element={<CheckOut />} />
@@ -71,7 +73,13 @@ function App() {
           <Route path="/UserDetails" element={<UserDetails />} />
           <Route path="/Welcome" element={<Welcome />} />
           <Route path="/POS" element={<POS/>}/>    
-          <Route path="/KitchenManager" element={<KitchenManager/>}/>    
+          <Route path="/KitchenManager" element={<KitchenManager/>}/> 
+          <Route path="/WaiterDashboard" element={<WaiterDashboard/>}/>
+          <Route path="/OrderHistory" element={<OrderHistory/>}/>
+          <Route path="/POSOrdersSA" element={<PosOrdersSA/>}/>
+          <Route path="/POSDashboard" element={<POSDashboard/>}/>
+
+          
           </Routes>
       </BrowserRouter>
     </>

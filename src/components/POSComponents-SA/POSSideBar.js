@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faServer,
@@ -8,18 +7,16 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./POSSideBar.css";
 import Logo from "../../img/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../../App.css";
 
-export default function Sidebar() {
-
-  const [activeLink, setActiveLink] = useState("/POS"); // State to track active link
+export default function POSSideBar() {
+  const location = useLocation();
+  const [activeLink, setActiveLink] = useState(location.pathname);
 
   const handleItemClick = (link) => {
     setActiveLink(link);
   };
-
-
 
   return (
     <div className="sideBarWrap p-2">
@@ -29,22 +26,24 @@ export default function Sidebar() {
 
       <div className="mt-3">
         <Link to="/POS" className="linkWrap">
-          <div className={`sideBarItem d-flex rounded-5 align-items-center px-3 mt-2 ${activeLink === "/POS" && "activeLink"}`}
+          <div className={`sideBarItem d-flex rounded-5 align-items-center px-3 mt-2 ${activeLink === "/POS" ? "activeLink" : ""}`}
           onClick={() => handleItemClick("/POS")}>
             <FontAwesomeIcon icon={faCashRegister} />
             <p className="m-2">POS</p>
           </div>
         </Link>
 
-        <Link to="/Item" className="linkWrap">
-          <div className="sideBarItem d-flex  rounded-5  align-items-center px-3 mt-2">
+        <Link to="/POSOrdersSA" className="linkWrap">
+        <div className={`sideBarItem d-flex rounded-5 align-items-center px-3 mt-2 ${activeLink === "/POSOrdersSA" ? "activeLink" : ""}`}
+          onClick={() => handleItemClick("/POSOrdersSA")}>
             <FontAwesomeIcon icon={faFax} />
             <p className="m-2">POS Orders</p>
           </div>
         </Link>
 
-        <Link to="/DiningTable" className="linkWrap">
-          <div className="sideBarItem d-flex  rounded-5 align-items-center px-3 mt-2">
+        <Link to="/POSDashboard" className="linkWrap">
+        <div className={`sideBarItem d-flex rounded-5 align-items-center px-3 mt-2 ${activeLink === "/POSDashboard" ? "activeLink" : ""}`}
+          onClick={() => handleItemClick("/POSDashboard")}>
             <FontAwesomeIcon icon={faServer} />
             <p className="m-2">Dashboard</p>
           </div>

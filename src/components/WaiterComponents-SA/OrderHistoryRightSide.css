@@ -1,0 +1,19 @@
+.textOnTable{
+    font-weight: 700;
+}
+.mainDiv{
+    background-color: #FAFAFA;
+    height:100vh;
+}
+.tableRow{
+    background-color: white;
+}
+.sessionButton{
+    color: red;
+    border: 2px solid red !important;
+    padding:5px 20px;
+    background-color: white;
+}
+.expiredText{
+    color: red;
+}
