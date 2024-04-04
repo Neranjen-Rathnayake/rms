@@ -1,6 +1,7 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import './userform.css'
+import { Link } from 'react-router-dom';
 
 export default function UserForm() {
   return (
@@ -24,11 +25,13 @@ export default function UserForm() {
 
       </Form>
       </div>
+      <Link to="/payment" className='linkWrap'>
       <div className='d-flex justify-content-center mt-4'>
       <button className="btn btn1 btn-warning">
         Send Code
       </button>
       </div>
+      </Link>
     </div>
   )
 }

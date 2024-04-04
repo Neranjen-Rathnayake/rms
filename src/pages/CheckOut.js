@@ -3,6 +3,7 @@ import Logo from '../img/logo.png';
 import Success from '../img/scss.gif';
 import { Button } from 'react-bootstrap';
 import './checkout.css';
+import { Link } from 'react-router-dom';
 
 
 export default function CheckOut() {
@@ -25,11 +26,13 @@ export default function CheckOut() {
                     <p>Lorem ipsum dolor, sit amet consectetur</p>
                 </div>
 
+                <Link to="/home" className='linkWrap'>
                 <div className='d-flex justify-content-center mt-2'>
                     
                     <Button className='btn btn-warning rounded-5 px-5 py-3 '><b>Menu</b></Button>
                     
                 </div>
+                </Link>
 
                 <div className='d-flex justify-content-center p-2 mt-3'>
                     <p>SELECT PAYMENT METHOD</p>

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import OtpInput from 'react-otp-input';
 import './otpfield.css';
+import { Link } from "react-router-dom";
 
 export default function OtpField() {
 
@@ -38,9 +39,11 @@ export default function OtpField() {
         />
       </div>
     </div>
+    <Link to="/checkout" className="linkWrap">
     <div className="d-flex justify-content-center mt-5">
     <button className="btn1 btn btn-warning">Confirm</button>
     </div>
+    </Link>
     </div>
   );
 }
