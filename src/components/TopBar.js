@@ -10,8 +10,8 @@ export default function TopBar() {
     return (
         <div>
             <div className='container'>
-                <Link to="/home"><img src={Logo} alt="Your Image" class="image" /></Link>
-                <Link to="/cart" className='linkWrap'><button class="button px-3 py-2"><FontAwesomeIcon icon={faCartShopping} className='mx-1' />Rs. 2000</button></Link>
+                <Link to="/home"><img src={Logo} alt="Your Image" className="image" /></Link>
+                <Link to="/cart" className='linkWrap'><button className="button px-3 py-2"><FontAwesomeIcon icon={faCartShopping} className='mx-1' />Rs. 2000</button></Link>
                 
             </div>
 

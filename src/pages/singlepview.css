@@ -29,14 +29,14 @@
     color: black;
 }
 
-.pbtn:active{
-    background-color: #fcca05b8 !important;
-    border-color: #FFD839 !important;
+.active{
+    background-color: rgba(255, 234, 148, 0.8) !important;
+        /* border-color: #FFD839 !important; */
 }
 
 .pbtn::after{
     background-color: #fcca05b8 !important;
-    border-color: #FFD839 !important;
+    color: black !important;
 }
 
 .addon-box{

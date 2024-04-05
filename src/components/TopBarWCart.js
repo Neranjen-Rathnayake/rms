@@ -9,7 +9,7 @@ export default function TopBarWCart() {
     return (
         <div>
             <div className='container'>
-                <Link to="/home"><img src={Logo} alt="Your Image" class="image" /></Link>
+                <Link to="/home"><img src={Logo} alt="Your Image" className="image  m-0 ps-4" /></Link>
             </div>
 
         </div>

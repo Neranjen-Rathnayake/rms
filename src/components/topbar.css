@@ -18,4 +18,5 @@
 .image {
     max-width: 200px;
     margin-right: 20px;
+    height:7vh !important;
 }

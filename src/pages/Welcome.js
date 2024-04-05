@@ -4,28 +4,29 @@ import { Button } from "react-bootstrap";
 import User from "../img/user.jpg";
 import { Link } from "react-router-dom";
 import "../App.css";
+import './Welcome.css'
 
 export default function Welcome() {
   return (
     <div>
       <div className="container">
-        <img src={Logo} alt="Your Image" class="image" />
+        <img src={Logo} alt="Your Image" className="image imageLogo m-0 ps-4 " />
       </div>
       <div
         className="d-flex justify-content-center align-items-center"
-        style={{ height: "30vh" }}
+        style={{ height: "20vh" }}
       >
-        <h1>Welcome</h1>
+        <h1 className="fw-bolder">WELCOME</h1>
       </div>
 
-      <div className="" style={{ height: "70vh" }}>
+      <div className="" style={{ minHeight: "60vh" }}>
         <div className="d-flex justify-content-center mt-2">
-          <p>
+          <p className="display-5 fw-bold">
             Your Table - <b>NO. 02</b>
           </p>
         </div>
         <div className="d-flex justify-content-center mt-2">
-          <p>Your Waiter</p>
+          <p className="fs-2">Your Waiter</p>
         </div>
         <div className="d-flex justify-content-center mt-2">
           <img
@@ -36,17 +37,17 @@ export default function Welcome() {
         </div>
         <div className="d-flex justify-content-center mt-2">
           <p>
-            <b>Isuru Liyanage</b>
+            <b className="fs-2">Isuru Liyanage</b>
           </p>
         </div>
         <div className="d-flex justify-content-center mt-2">
-          <p>078 1234 567</p>
+          <p className="fs-1">078 1234 567</p>
         </div>
 
         <Link to="/home" className="linkWrap">
           <div className="d-flex justify-content-center mt-2">
             <Button className="btn btn-warning rounded-5 px-5 py-3">
-              <b>Go To Menu</b>
+              <b className="fs-2">Go To Menu</b>
             </Button>
           </div>
         </Link>

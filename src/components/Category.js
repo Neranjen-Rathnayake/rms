@@ -10,7 +10,7 @@ import PFries from "../img/pizza-fries.png";
 
 export default function Category() {
   return (
-    <div className="mx-1">
+    <div className="mx-1 ms-3 me-3">
       <div className="row  mt-3">
         <div className="col-3">
           <div className="category-box rounded-4 d-flex justify-content-center align-content-center p-2">

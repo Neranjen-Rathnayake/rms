@@ -77,13 +77,13 @@ const CardComponent = () => {
         <Modal.Body>
           <Cards />
         </Modal.Body>
-        <Modal.Footer className="modal-footer-no-border">
+        {/* <Modal.Footer className="modal-footer-no-border">
           <div className="d-flex justify-content-start">
             <Button className="rounded-5 payButton" onClick={handleCloseModal}>
               Pay
             </Button>
           </div>
-        </Modal.Footer>
+        </Modal.Footer> */}
       </Modal>
     </>
   );

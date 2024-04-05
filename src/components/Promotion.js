@@ -7,7 +7,7 @@ import ExampleCarouselImage from '../img/burger.png';
 export default function Promotion() {
     return (
 
-        <div>
+        <div className="ms-3 me-3">
             <h5 className='mx-3'>Promotions</h5>
 
             <div className='d-flex justify-content-center'>

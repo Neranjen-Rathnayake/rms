@@ -74,7 +74,7 @@ export default function SinglePview() {
                             </div>
                         </div>
 
-                        <div className='col m-1 mt-3'>
+                        <div className='col m-1 mt-3 ps-4'>
                             <div className='row'>
 
                                 <div className='col-6'>
@@ -94,9 +94,9 @@ export default function SinglePview() {
 
                         <div className='col-12 m-1 mt-3'>
                             <div className='row d-flex  justify-content-center'>
-                                <Button className='col-5 mx-2 p-2 pbtn' onClick={() => handleSizeSelect(false)}>Regular</Button>
-                                <Button className='col-5 mx-2 p-2 pbtn' onClick={() => handleSizeSelect(true)}>Large</Button>
-                            </div>
+                            <Button className={`col-5 mx-2 p-2 pbtn ${!isLarge ? 'active' : ''}`} onClick={() => handleSizeSelect(false)}>Regular</Button>
+                                <Button className={`col-5 mx-2 p-2 pbtn ${isLarge ? 'active' : ''}`} onClick={() => handleSizeSelect(true)}>Large</Button>
+                             </div>
                         </div>
 
                         <div className='col-12 m-1 mt-4'>
