@@ -3,7 +3,6 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import {
   faServer,
   faReceipt,
@@ -18,6 +17,7 @@ import {
   faFileLines,
   faFileWaveform,
   faFile,
+  faFileSignature,
 } from "@fortawesome/free-solid-svg-icons";
 import "./sidebar.css";
 import Logo from "../../img/logo.png";
@@ -59,7 +59,7 @@ export default function Sidebar() {
             </div>
           </Link>
 
-          <Link to="/POSdashboard" className="linkWrap">
+          <Link to="/AdminPOS" className="linkWrap">
             <div className="sideBarItem d-flex  rounded-5 align-items-center px-3 mt-2">
               <FontAwesomeIcon icon={faCashRegister} />
               <p className="m-2">POS</p>
@@ -126,6 +126,13 @@ export default function Sidebar() {
             <div className="sideBarItem d-flex  rounded-5 align-items-center px-3 mt-2">
               <FontAwesomeIcon icon={faFile} />
               <p className="m-2">Credit Report</p>
+            </div>
+          </Link>
+
+          <Link to="/Setting" className="linkWrap">
+            <div className="sideBarItem d-flex  rounded-5 align-items-center px-3 mt-2">
+              <FontAwesomeIcon icon={faFileSignature} />
+              <p className="m-2">Setting</p>
             </div>
           </Link>
         </div>

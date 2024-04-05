@@ -15,6 +15,8 @@ import Transactions from "./pages/Admin/Transactions";
 import POSOrders from "./pages/POS/POSOrders";
 import POSsidebar from "./pages/POS/POSsidebar";
 import POS from "./pages/POS/POS";
+import AdminPOS from "./pages/Admin/AdminPOS";
+import Setting from "./pages/Admin/Setting"
 
 import Cart from "./pages/Cart";
 import CheckOut from "./pages/CheckOut";
@@ -60,6 +62,7 @@ function App() {
           <Route path="/PosOrderList" element={<PosOrderList />} />
           <Route path="/SalesReport" element={<SalesReport />} />
           <Route path="/Transactions" element={<Transactions />} />
+          <Route path="/Setting" element={<Setting/>} />
           <Route path="/POSOrders" element={<POSOrders />} />
           <Route path="/POSsidebar" element={<POSsidebar />} />
           <Route path="/Cart" element={<Cart />} />
@@ -72,7 +75,8 @@ function App() {
           <Route path="/SinglePview" element={<SinglePview />} />
           <Route path="/UserDetails" element={<UserDetails />} />
           <Route path="/Welcome" element={<Welcome />} />
-          <Route path="/POS" element={<POS/>}/>    
+          <Route path="/POS" element={<POS/>}/>  
+          <Route path="/AdminPOS" element={<AdminPOS/>}/>   
           <Route path="/KitchenManager" element={<KitchenManager/>}/> 
           <Route path="/WaiterDashboard" element={<WaiterDashboard/>}/>
           <Route path="/OrderHistory" element={<OrderHistory/>}/>
